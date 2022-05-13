@@ -13,7 +13,7 @@ const url = 'https://jsonplaceholder.typicode.com/users/1';
   }
 
   Challenge: Given the url above,
-  make this app fetch the data and display them in the browser (Small Hint: use `React.useEffect and fetch api`)
+  make this app fetch the data and display them in the browser
 **/
 export default function App() {
   const [userData, setUserData] = React.useState({});
